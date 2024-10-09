@@ -17,7 +17,7 @@ for order_num, orders_data in orders.items():
     if price > max_price:
         max_order = order_num
         max_price = price
-
+print(f'Номер заказа с самой большой стоимостью: {max_order}, стоимость заказа: {max_price}')
 
 max_price = 0
 max_order_num = None
