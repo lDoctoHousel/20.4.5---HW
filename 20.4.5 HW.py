@@ -84,5 +84,5 @@ sum_of_quantity = 0
 for order_num, orders_data in orders.items():
     sum_of_prices += orders_data['price']
     sum_of_quantity += orders_data['quantity']
-avg_price_quantity = sum_of_prices / len(orders) + sum_of_quantity / len(orders)
+avg_price_quantity = (sum_of_prices / sum_of_quantity)
 print(f'Средняя стоимость товаров в июле: {avg_price_quantity}')
